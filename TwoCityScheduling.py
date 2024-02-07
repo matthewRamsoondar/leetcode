@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         # compute the differences as cost[1] - cost[0]
